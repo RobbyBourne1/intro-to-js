@@ -46,7 +46,7 @@ let born = 1984;
 let today = 2017;
 // A:
 var age = today - born;
-console.log('Tim is ' + age + 'years old');
+console.log('Tim is ' + age + ' years old');
 
 
 // 8.
@@ -59,8 +59,6 @@ let instructorName = 'Mark';
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
-let yourName = "Robby";
-let instructorName = "Mark";
 
 
 // This statement should read correctly
@@ -76,10 +74,7 @@ let myBoolean = true
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // A:
-let myNumber = '5';
-let myString = 'Hello World!';
-let myBoolean = true;
-let myUndefined;
+
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
@@ -143,14 +138,14 @@ if (thirsty){
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+let m;
 
-if(x){
+if(m){
 	console.log("True!");
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
@@ -159,19 +154,19 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+let n = 1 * undefined;
 
-if(x){
+if(n){
 	console.log("True!");
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
@@ -180,7 +175,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 25.
@@ -189,7 +184,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 26.
@@ -198,7 +193,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
@@ -207,7 +202,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 28.
@@ -216,7 +211,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 29.
@@ -225,7 +220,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 30.
