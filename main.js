@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: high - "5"
+// A: undefined
 
 
 // 7.
@@ -80,47 +80,47 @@ let myUndefined;
 
 // 11.
 let x = (false == 0);
-// A. false
+// A. True
 
 
 // 12.
 let y = (false == "");
-// A. false
+// A. True
 
 
 // 13.
 let z = (0 == "");
-// A. false
+// A. False
 
 
 // 14.
 let a = (null == null);
-// A. false
+// A. True
 
 
 // 25.
 let b = (undefined == undefined);
-// A. false
+// A. True
 
 
 // 16.
 let c = (undefined == null);
-// A. false
+// A. True
 
 
 // 17.
 let d = (null == false);
-// A. true
+// A. False
 
 
 // 18.
 let e = (NaN == null);
-// A. false
+// A. False
 
 
 // 19.
 let f = (NaN == NaN);
-// A. false
+// A. False
 
 
 // 20.
