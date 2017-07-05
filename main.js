@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: undefined
+// A: 45
 
 
 // 7.
@@ -90,7 +90,7 @@ let y = (false == "");
 
 // 13.
 let z = (0 == "");
-// A. False
+// A. True
 
 
 // 14.
